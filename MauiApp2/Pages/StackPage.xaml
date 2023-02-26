@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.Pages.StackPage"
+             Title="StackPage">
+    <StackLayout Orientation="Vertical"> <!-- Všechny věci jsou pod sebou doplňují do zbytku řádku-->
+        <Label 
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button Text="click"/>
+        <Label Text="Welcome to .NET MAUI!" />
+
+        
+        <HorizontalStackLayout  HorizontalOptions="Center">
+            <Button Text="click"/>
+            <Button Text="click2"/>
+        </HorizontalStackLayout>
+        
+        
+    </StackLayout>
+    
+    
+    
+</ContentPage>

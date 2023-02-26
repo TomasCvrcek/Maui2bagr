@@ -1,0 +1,1 @@
+C:\Users\Joe Mama\source\repos\MauiApp2\MauiApp2\MauiApp2.csproj;x64
